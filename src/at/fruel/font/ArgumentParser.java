@@ -77,14 +77,14 @@ public class ArgumentParser {
         System.out.println("Input Data:");
         System.out.println("\t-i [file]\tLoad text from input file.");
         System.out.println("\t-t [text]\tProvide text directly.");
-        System.out.println("\tIf no options are specified you will be prompted to select a file.");
+        System.out.println("\n\tIf no options are specified you will be prompted to select a file.");
 
         System.out.println("\nFont:");
         System.out.println("\t-s [font]\tUse an installed system font with the given name.");
         System.out.println("\t-f [file]\tLoad the specified TTF file and use it to render the text.");
-        System.out.println("\t-p [pt]\tSet font size");
+        System.out.println("\t-p [pt]\t\tSet font size");
         System.out.println("\t-o [style]\tFont style option. A comma separated list of: bold, italic");
-        System.out.println("\tIf no font options are specified a selection dialog will be shown.");
+        System.out.println("\n\tIf no font options are specified a selection dialog will be shown.");
 
         System.out.println("\nOther Options:");
         System.out.println("\t-h\t\tShow this help page.");
